@@ -1,0 +1,127 @@
+@keyframes header-zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+header > nav > ul > li:hover {
+  animation: header-zoom 1.5s ease-in-out 1;
+  background-color: white;
+  transition: background-color 0.8s;
+  border-radius: 0.8rem 0.1rem 0.8rem 0.1rem;
+}
+
+header > nav > ul > li > a:hover {
+  color: black;
+  transition: color 0.8s;
+}
+
+/*SECCION COMEBACK*/
+
+@keyframes titulo-ppal {
+  0% {
+    transform: translateY(-400px);
+    color: crimson;
+  }
+  75% {
+    transform: translateX(0);
+    color: crimson;
+  }
+  100% {
+    color: white;
+  }
+}
+.come-title {
+  animation: titulo-ppal 5s ease 1;
+}
+
+@keyframes titulo-detail {
+  0% {
+    color: black;
+  }
+  75% {
+    color: black;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.come-aditional {
+  animation: titulo-detail 5s ease 1;
+}
+
+.come-info-btn:hover {
+  cursor: pointer;
+}
+
+@keyframes rotar-reverso {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.come-img {
+  animation: rotar-reverso 5s 3s linear reverse infinite;
+}
+
+@keyframes rotar-disco {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  75% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(60deg);
+  }
+}
+
+.come-img:hover {
+  animation: rotar-disco 3s linear 1;
+  cursor: pointer;
+}
+
+/* SECCION MIEMBROS*/
+
+.bangchan-img {
+  transform: scaleX(-1);
+}
+
+.felix-img {
+  transform: scaleX(-1);
+}
+
+/*SECCION SKZOO*/
+
+.skzoo-img:active {
+  transform: rotate3d(0, 1, 0, 180deg);
+}
+
+/*SECCION DISCOGRAFIA*/
+
+.disco-img:active {
+  opacity: 0;
+  transition: opacity ease-in;
+}
+
+.disco-img {
+  opacity: 1;
+  transition: opacity 0.8s 10s ease-in;
+}

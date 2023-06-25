@@ -1,0 +1,604 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+/* font-family: 'Permanent Marker', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Ultra&display=swap");
+/* font-family: 'Ultra', serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+/* font-family: 'Patrick Hand', cursive; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: var(--blanco);
+}
+
+/*COLOR*/
+:root {
+  --blanco: #ffffff;
+  --gris: #9f9f9f;
+  --oscuro: #1d1d1b;
+
+  /*text color*/
+  --light: #000000;
+  --dark: #363535;
+}
+
+/* html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
+} */
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(62, 62, 62, 1) 55%,
+    rgba(6, 6, 6, 1) 100%
+  );
+}
+
+/* ============= HEADER ============= */
+
+.header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  box-shadow: 0 8px 24px rgba(187, 187, 187, 0.2);
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+header > nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+header > nav > img {
+  width: 20%;
+  margin: 7rem 0 0 0;
+  z-index: 2;
+}
+
+header > nav > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+header > nav > ul > li > a {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.header > nav > ul > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+}
+
+.menu-icon,
+.menu-toggle {
+  display: none;
+}
+
+/* ============= SECCION COMEBACK ============= */
+
+.come {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5em 4em 5em 3em;
+}
+
+.come-info-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: 55%;
+  height: 35rem;
+  margin: 4em 0;
+}
+
+.come-title {
+  font-size: 6rem;
+  letter-spacing: 0.7em;
+  padding: 0 0 0 1em;
+}
+
+.come-aditional {
+  font-size: 2rem;
+  letter-spacing: 1.5rem;
+  padding: 0 0 0 6rem;
+}
+
+.come-info-detail {
+  font-size: 1.9rem;
+  letter-spacing: 0.15em;
+  text-align: center;
+  padding: 1em 1em 0 1em;
+}
+
+.come-info-btn {
+  display: flex;
+  border: var(--blanco) 5px solid;
+  box-shadow: var(--gris) 0px 0px 150px 10px;
+  width: 18rem;
+  height: 5rem;
+  font-size: 1.9rem;
+  text-align: center;
+  border-radius: 3rem;
+  align-self: center;
+  margin: 2em 0 1em 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.come-img {
+  width: 40%;
+  box-shadow: var(--gris) 0px 0px 250px 0px;
+  border: var(--blanco) 0.7rem solid;
+  border-radius: 50%;
+  align-self: self-end;
+}
+
+/* ============= SECCION DISCOGRAFIA ============= */
+
+.disco {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0 4em 0;
+}
+
+.disco-title {
+  font-size: 4rem;
+  letter-spacing: 0.5em;
+  padding: 1em 1em 1em 1em;
+}
+
+.discografia-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+}
+
+.disco-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 380px;
+  height: 380px;
+}
+
+.disco-back-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 5px 5px 0 5px;
+}
+
+.disco-tracks {
+  font-size: 1em;
+}
+
+.disco-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 100px 5px 100px 5px;
+  border: var(--blanco) 10px solid;
+  width: 380px;
+  height: 380px;
+}
+
+/* ============= SECCION MIEMBROS ============= */
+
+.members {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 4em 0 5em 0;
+}
+
+.members-title {
+  font-size: 4rem;
+  letter-spacing: 0.5em;
+  padding: 3em 2em;
+}
+
+.members-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  height: 100%;
+}
+
+.member-content {
+  border: var(--blanco) solid 0.6rem;
+  width: 28%;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 3rem 0 3rem 0;
+  box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.2);
+  position: relative;
+  background: var(--light);
+}
+
+.bangchan {
+  border: var(--blanco) solid 0.6rem;
+  width: 28%;
+  height: 460px;
+  overflow: hidden;
+  border-radius: 3rem 0 3rem 0;
+  box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.2);
+  position: relative;
+  background: var(--light);
+}
+
+.changbin {
+  border: var(--blanco) solid 0.6rem;
+  width: 28%;
+  height: 540px;
+  overflow: hidden;
+  border-radius: 3rem 0 3rem 0;
+  box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.2);
+  position: relative;
+  background: var(--light);
+}
+
+.han {
+  border: var(--blanco) solid 0.6rem;
+  width: 28%;
+  height: 520px;
+  overflow: hidden;
+  border-radius: 3rem 0 3rem 0;
+  box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.2);
+  position: relative;
+  background: var(--light);
+}
+
+.hwang {
+  border: var(--blanco) solid 0.6rem;
+  width: 28%;
+  height: 570px;
+  overflow: hidden;
+  border-radius: 3rem 0 3rem 0;
+  box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.2);
+  position: relative;
+  background: var(--light);
+}
+
+.lee {
+  border: var(--blanco) solid 0.6rem;
+  width: 28%;
+  height: 490px;
+  overflow: hidden;
+  border-radius: 3rem 0 3rem 0;
+  box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.2);
+  position: relative;
+  background: var(--light);
+}
+
+.min {
+  border: var(--blanco) solid 0.6rem;
+  width: 28%;
+  height: 460px;
+  overflow: hidden;
+  border-radius: 3rem 0 3rem 0;
+  box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.2);
+  position: relative;
+  background: var(--light);
+}
+
+.seungmin {
+  border: var(--blanco) solid 0.6rem;
+  width: 28%;
+  height: 550px;
+  overflow: hidden;
+  border-radius: 3rem 0 3rem 0;
+  box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.2);
+  position: relative;
+  background: var(--light);
+}
+
+.yang {
+  border: var(--blanco) solid 0.6rem;
+  width: 28%;
+  height: 570px;
+  overflow: hidden;
+  border-radius: 3rem 0 3rem 0;
+  box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.2);
+  position: relative;
+  background: var(--light);
+}
+
+.members-title {
+  font-size: 4rem;
+  padding: 1rem 0 1rem 3rem;
+}
+
+.member-header {
+  padding: 20px;
+}
+
+.member-img {
+  width: 50%;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.member-name {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--blanco);
+  text-shadow: var(--blanco) 2px 2px 30px;
+  letter-spacing: 0.35em;
+  z-index: 1;
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
+
+.member-detail {
+  font-size: 1.3rem;
+  letter-spacing: 0.08rem;
+  line-height: 1.5rem;
+  text-align: left;
+  padding: 0.8rem;
+  /* border: crimson solid 1px; */
+}
+
+.member-detail > span {
+  color: crimson;
+  text-shadow: var(--blanco) 2px 2px 25px;
+}
+
+.member-flag {
+  position: absolute;
+  bottom: 30px;
+  left: 25px;
+  width: 20%;
+}
+
+/* ============= SECCION SKZOO ============= */
+
+.skzoo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 4em 0 5rem 0;
+}
+
+.skzoo-title {
+  font-size: 5rem;
+  letter-spacing: 0.5em;
+  align-self: center;
+}
+
+.skzoo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 3rem;
+}
+
+.skzoo-envolver,
+.skzoo-card {
+  height: 300px;
+  max-width: 300px;
+  margin: auto;
+  position: relative;
+  box-shadow: black 2px 2px 40px 10px;
+  border-radius: 40px;
+}
+
+.skzoo-envolver {
+  perspective: 900px;
+}
+.skzoo-card {
+  text-align: centered;
+  transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+  transform-style: preserve-3d;
+}
+
+.skzoo-envolver:hover .skzoo-card {
+  transform: rotateY(180deg);
+}
+
+.skcard-front,
+.skcard-back {
+  width: 250px;
+  position: relative;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  border: var(--blanco) 4px solid;
+}
+
+.skcard-front {
+  cursor: pointer;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 50px;
+  background-size: cover;
+  background-position: center center;
+  border: var(--blanco) 4px solid;
+}
+
+.skcf-bangchan {
+  background-image: url(./assets/skzoo/skzoo-1.png);
+}
+
+.skcf-changbin {
+  background-image: url(./assets/skzoo/skzoo-2.png);
+}
+
+.skcf-han {
+  background-image: url(./assets/skzoo/skzoo-3.png);
+}
+
+.skcf-felix {
+  background-image: url(./assets/skzoo/skzoo-4.png);
+}
+
+.skcf-leeknow {
+  background-image: url(./assets/skzoo/skzoo-5.png);
+}
+
+.skcf-Hyunjin {
+  background-image: url(./assets/skzoo/skzoo-6.png);
+}
+
+.skcf-Seungmin {
+  background-image: url(./assets/skzoo/skzoo-7.png);
+}
+
+.skcf-in {
+  background-image: url(./assets/skzoo/skzoo-8.png);
+}
+
+.skcard-back {
+  transform: rotateY(180deg);
+  position: absolute;
+  border-radius: 50px;
+  background: black;
+}
+
+.skzoo-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 50px 0;
+  height: 300px;
+  padding-top: 25%;
+}
+
+.skzoo-card-tittle {
+  color: var(--blanco);
+  font-size: 1.5em;
+  text-shadow: #363535 1px 1px 1px;
+}
+
+.skzoo-img-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #221e1e;
+}
+
+.skzoo-img {
+  width: 30%;
+}
+
+/* ============= SECCION HISTORIA ============= */
+
+.historia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.historia-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  padding: 4rem 2rem 0 2rem;
+  text-align: center;
+}
+
+.historia-title {
+  font-size: 5rem;
+  letter-spacing: 0.7em;
+  align-self: center;
+  margin: 0 0 0.5em 2em;
+}
+
+.historia-part1 > p,
+.historia-part2 > p {
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+  line-height: 2.7rem;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+.historia-img {
+  width: 60%;
+  box-shadow: #9f9f9f 1px 1px 50px 20px;
+}
+
+/* ============= FOOTER ============= */
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(92, 91, 91);
+  max-width: 1200px;
+  z-index: 2;
+  width: 100%;
+}
+
+.footer-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 15px;
+}
+
+.footer-navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
