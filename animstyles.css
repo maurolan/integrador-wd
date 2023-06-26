@@ -110,7 +110,7 @@ header > nav > ul > li > a:hover {
 
 /*SECCION SKZOO*/
 
-.skzoo-img:active {
+.skzoo-img:hover {
   transform: rotate3d(0, 1, 0, 180deg);
 }
 
