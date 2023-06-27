@@ -25,10 +25,11 @@ main {
   width: 100vw;
   max-width: 1200px;
   height: 100vh;
-  background-image: url(./assets/login/sk-5-star-tracklist.jpg);
-  background-image: no-repeat;
-  background-image: cover;
-  background-image: center;
+  background: url(./assets/login/logi_background.jpg), black;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-size: cover;
   box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.6);
 }
 
@@ -114,6 +115,7 @@ main {
   font-weight: 600;
   letter-spacing: 4px;
   color: black;
+  box-shadow: black 1px 1px 30px 15px;
 }
 
 .login-gotoregister {

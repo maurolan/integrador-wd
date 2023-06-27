@@ -140,6 +140,7 @@ header > nav > ul > li > a {
   font-size: 6rem;
   letter-spacing: 0.7em;
   padding: 0 0 0 1em;
+  text-shadow: var(--gris) 1px 1px 30px;
 }
 
 .come-aditional {
@@ -192,6 +193,7 @@ header > nav > ul > li > a {
   font-size: 4rem;
   letter-spacing: 0.5em;
   padding: 1em 1em 1em 1em;
+  text-shadow: var(--gris) 1px 1px 30px;
 }
 
 .discografia-container {
@@ -272,7 +274,7 @@ header > nav > ul > li > a {
 .bangchan {
   border: var(--blanco) solid 0.6rem;
   width: 28%;
-  height: 460px;
+  height: 490px;
   overflow: hidden;
   border-radius: 3rem 0 3rem 0;
   box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.2);
@@ -283,7 +285,7 @@ header > nav > ul > li > a {
 .changbin {
   border: var(--blanco) solid 0.6rem;
   width: 28%;
-  height: 540px;
+  height: 590px;
   overflow: hidden;
   border-radius: 3rem 0 3rem 0;
   box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.2);
@@ -294,7 +296,7 @@ header > nav > ul > li > a {
 .han {
   border: var(--blanco) solid 0.6rem;
   width: 28%;
-  height: 520px;
+  height: 570px;
   overflow: hidden;
   border-radius: 3rem 0 3rem 0;
   box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.2);
@@ -316,7 +318,7 @@ header > nav > ul > li > a {
 .lee {
   border: var(--blanco) solid 0.6rem;
   width: 28%;
-  height: 490px;
+  height: 520px;
   overflow: hidden;
   border-radius: 3rem 0 3rem 0;
   box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.2);
@@ -327,7 +329,7 @@ header > nav > ul > li > a {
 .min {
   border: var(--blanco) solid 0.6rem;
   width: 28%;
-  height: 460px;
+  height: 500px;
   overflow: hidden;
   border-radius: 3rem 0 3rem 0;
   box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.2);
@@ -338,7 +340,7 @@ header > nav > ul > li > a {
 .seungmin {
   border: var(--blanco) solid 0.6rem;
   width: 28%;
-  height: 550px;
+  height: 590px;
   overflow: hidden;
   border-radius: 3rem 0 3rem 0;
   box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.2);
@@ -392,7 +394,6 @@ header > nav > ul > li > a {
   line-height: 1.5rem;
   text-align: left;
   padding: 0.8rem;
-  /* border: crimson solid 1px; */
 }
 
 .member-detail > span {
@@ -550,21 +551,35 @@ header > nav > ul > li > a {
   margin-bottom: 3rem;
 }
 
+#historia-video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.25;
+  object-fit: cover;
+}
+
 .historia-container {
+  position: relative;
   width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-self: center;
-  padding: 4rem 2rem 0 2rem;
+  padding: 1rem 1rem 0 1rem;
   text-align: center;
+  overflow: hidden;
+  border-radius: 30px;
 }
 
 .historia-title {
   font-size: 5rem;
   letter-spacing: 0.7em;
   align-self: center;
-  margin: 0 0 0.5em 2em;
+  margin: 0 0 20px 20px;
+  text-shadow: var(--gris) 1px 1px 30px;
 }
 
 .historia-part1 > p,
@@ -584,9 +599,9 @@ hr {
 }
 
 .historia-slogan {
-  color: crimson;
+  color: blanchedalmond;
   font-size: 28px;
-  text-shadow: 1px 1px 20px rgba(255, 255, 255);
+  text-shadow: 1px 1px 20px;
 }
 
 .historia-map {
@@ -595,7 +610,7 @@ hr {
   align-self: center;
   width: 60%;
   height: 400px;
-  margin: 40px 10px;
+  margin: 50px 0 40px 0;
 }
 
 /* ============= FOOTER ============= */
