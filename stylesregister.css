@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* border: crimson 1px solid; */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-container {
+  border: crimson 1px solid;
+  max-width: 1200px;
+}
+
+.register-box {
+  border: crimson 1px solid;
+}
+
+.register-campo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
