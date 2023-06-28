@@ -110,9 +110,9 @@ header > nav > ul > li > a:hover {
 
 /*SECCION SKZOO*/
 
-.skzoo-img:hover {
+/* .skcard-card:active {
   transform: rotate3d(0, 1, 0, 180deg);
-}
+} */
 
 /*SECCION DISCOGRAFIA*/
 
@@ -123,5 +123,5 @@ header > nav > ul > li > a:hover {
 
 .disco-img {
   opacity: 1;
-  transition: opacity 0.8s 10s ease-in;
+  transition: opacity 0.8s 8s ease-in;
 }

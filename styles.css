@@ -14,6 +14,9 @@ font-family: 'Shadows Into Light Two', cursive; , sans-serif; */
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 /* font-family: 'Share Tech Mono', monospace; */
 
+@import url("https://fonts.googleapis.com/css2?family=Dynalight&display=swap");
+/* font-family: 'Dynalight', cursive; */
+
 * {
   margin: 0;
   padding: 0;
@@ -268,6 +271,7 @@ header > nav > ul > li > a {
   font-size: 4rem;
   letter-spacing: 0.5em;
   padding: 3em 2em;
+  text-shadow: var(--gris) 1px 1px 15px;
 }
 
 .members-container {
@@ -287,7 +291,8 @@ header > nav > ul > li > a {
   border-radius: 3rem 0 3rem 0;
   box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.2);
   position: relative;
-  background: var(--light);
+  background-image: url(./assets/login/logi_background.jpg);
+  background-repeat: no-repeat;
 }
 
 .bangchan {
@@ -441,6 +446,7 @@ header > nav > ul > li > a {
   font-size: 5rem;
   letter-spacing: 0.5em;
   align-self: center;
+  text-shadow: var(--gris) 1px 1px 15px;
 }
 
 .skzoo-container {
@@ -465,7 +471,7 @@ header > nav > ul > li > a {
   perspective: 900px;
 }
 .skzoo-card {
-  text-align: centered;
+  text-align: center;
   transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
   transform-style: preserve-3d;
 }
@@ -549,6 +555,43 @@ header > nav > ul > li > a {
   text-shadow: #363535 1px 1px 1px;
 }
 
+.skzoo-card-name {
+  font-size: 40px;
+  font-family: "Dynalight", cursive;
+}
+
+.Wolfchan {
+  color: rgb(117, 155, 238);
+}
+
+.dwaekki {
+  color: rgb(235, 143, 200);
+}
+
+.HanQuokka {
+  color: rgb(230, 183, 123);
+}
+
+.Bbokari {
+  color: rgb(238, 234, 22);
+}
+
+.Leebit {
+  color: #d9dfe4;
+}
+
+.Jiniret {
+  color: rgb(235, 216, 238);
+}
+
+.Puppym {
+  color: rgb(243, 222, 183);
+}
+
+.FoxINy {
+  color: rgb(221, 176, 189);
+}
+
 .skzoo-img-container {
   display: flex;
   justify-content: center;
@@ -557,7 +600,7 @@ header > nav > ul > li > a {
 }
 
 .skzoo-img {
-  width: 30%;
+  width: 50%;
 }
 
 /* ============= SECCION HISTORIA ============= */
@@ -630,6 +673,7 @@ hr {
   width: 60%;
   height: 400px;
   margin: 50px 0 40px 0;
+  z-index: 0;
 }
 
 /* ============= FOOTER ============= */
