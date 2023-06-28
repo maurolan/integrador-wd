@@ -11,6 +11,9 @@
 /* font-family: 'Roboto', sans-serif;
 font-family: 'Shadows Into Light Two', cursive; , sans-serif; */
 
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+/* font-family: 'Share Tech Mono', monospace; */
+
 * {
   margin: 0;
   padding: 0;
@@ -210,6 +213,7 @@ header > nav > ul > li > a {
   position: relative;
   width: 380px;
   height: 380px;
+  cursor: url(./assets/iconfav.ico), auto;
 }
 
 .disco-back-container {
@@ -218,11 +222,25 @@ header > nav > ul > li > a {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  padding: 5px 5px 0 5px;
+  padding: 10px 5px 0 5px;
+}
+.disco-back-container > h3 {
+  margin-top: 14px;
 }
 
 .disco-tracks {
-  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  font-size: 18px;
+}
+
+.disco-tk-go,
+.disco-tk-noeasy {
+  gap: 2px;
+  font-size: 14px;
 }
 
 .disco-img {
@@ -557,7 +575,7 @@ header > nav > ul > li > a {
   top: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.25;
+  opacity: 0.3;
   object-fit: cover;
 }
 
