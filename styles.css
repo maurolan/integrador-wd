@@ -77,6 +77,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  max-width: 1200px;
   z-index: 2;
 }
 
@@ -131,6 +132,7 @@ header > nav > ul > li > a {
   justify-content: space-around;
   align-items: center;
   padding: 5em 4em 5em 3em;
+  max-width: 1200px;
 }
 
 .come-info-container {
@@ -193,6 +195,7 @@ header > nav > ul > li > a {
   justify-content: center;
   align-items: center;
   margin: 2em 0 4em 0;
+  max-width: 1200px;
 }
 
 .disco-title {
@@ -265,6 +268,7 @@ header > nav > ul > li > a {
   align-items: center;
   flex-wrap: wrap;
   margin: 4em 0 5em 0;
+  max-width: 1200px;
 }
 
 .members-title {
@@ -440,6 +444,7 @@ header > nav > ul > li > a {
   align-items: center;
   flex-wrap: wrap;
   margin: 4em 0 5rem 0;
+  max-width: 1200px;
 }
 
 .skzoo-title {
@@ -611,6 +616,7 @@ header > nav > ul > li > a {
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 3rem;
+  max-width: 1200px;
 }
 
 #historia-video {
@@ -642,6 +648,7 @@ header > nav > ul > li > a {
   align-self: center;
   margin: 0 0 20px 20px;
   text-shadow: var(--gris) 1px 1px 30px;
+  z-index: 1;
 }
 
 .historia-part1 > p,
@@ -655,24 +662,175 @@ hr {
   margin: 20px 0;
 }
 
-.historia-img {
-  width: 60%;
-  box-shadow: #9f9f9f 1px 1px 50px 20px;
-}
-
 .historia-slogan {
   color: blanchedalmond;
   font-size: 28px;
   text-shadow: 1px 1px 20px;
 }
 
-.historia-map {
+/* ============= SECCION CONTACTO ============= */
+
+.contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 30px;
+  margin-top: 100px;
+}
+
+.contacto-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacto-container > h3 {
+  letter-spacing: 4px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contacto-tittle {
+  font-size: 55px;
+  letter-spacing: 0.5em;
+  align-self: center;
+  text-shadow: var(--gris) 1px 1px 20px;
+  margin: 30px 0;
+}
+
+.register-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  border-radius: 20px;
+
+  margin-top: 20px 0 20px 0;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(219, 74, 103, 0.747) 1px 1px 50px 1px;
+  background-image: url(./assets/contacto/register_photo.jpg);
+  background-size: 700px;
+
+  gap: 5px;
+  padding: 50px 0;
+  margin: 20px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.register-form > label {
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.register-form > label {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  width: auto;
+  text-shadow: #000000 2px 2px 3px;
+  font-size: 22px;
+}
+
+.register-textbox {
+  width: 300px;
+  height: 40px;
+  border-radius: 15px;
+  border: #000000 1px solid;
+  box-shadow: #000000 1px 1px 10px 3px;
+  margin: 0 0 30px 0;
+  color: black;
+  font-size: 30px;
+}
+
+.register-button {
+  width: 150px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: rgb(44, 44, 44);
+  border-radius: 10px;
+  background-color: rgb(221, 115, 136);
+  border: rgb(180, 167, 170) 2px solid;
+}
+
+.register-gotoregister {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: centEr;
+  margin-top: 25px;
+}
+
+.register-gotoregister > a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: crimson 2px solid;
+  width: 150px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.register-gotoregister > h3 {
+  letter-spacing: 5px;
+  font-size: 24px;
+}
+
+.map-jyplogo {
+  width: 130px;
+  background-color: var(--blanco);
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.map-container {
+  margin: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+}
+
+.map-title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.map-title-desc {
+  font-size: 22px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.map-flag {
+  width: 90px;
+  border-radius: 5px;
+}
+
+.contacto-map {
   border: var(--gris) 7px solid;
   border-radius: 10px;
   align-self: center;
-  width: 60%;
-  height: 400px;
-  margin: 50px 0 40px 0;
+  width: 400px;
+  height: 350px;
+  margin: 40px;
   z-index: 0;
 }
 
@@ -688,6 +846,7 @@ hr {
   max-width: 1200px;
   z-index: 2;
   width: 100%;
+  border-radius: 20px 20px 0 0;
 }
 
 .footer-menu {

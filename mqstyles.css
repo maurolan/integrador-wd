@@ -1,3 +1,79 @@
+/*============================================================================MAX-WIDTH: 2500px ==============================================================================*/
+
+@media (max-width: 2500px) {
+  .main {
+    max-width: 100%;
+  }
+
+  /* ============= SECCION MIEMBROS MAX-WIDTH: 2500px============= */
+
+  .member-content {
+    width: 30%;
+    height: 550px;
+    box-shadow: black 2px 2px 40px 10px;
+    background-image: url(./assets/login/logi_background.jpg);
+    background-repeat: no-repeat;
+  }
+}
+
+/*============================================================================MAX-WIDTH: 1600px ==============================================================================*/
+
+@media (max-width: 1600px) {
+  .main {
+    max-width: 100%;
+  }
+
+  /* ============= HEADER  MAX-WIDTH: 1600px============= */
+
+  header > nav > img {
+    width: 180px;
+    margin: 20px 0 0 0;
+  }
+
+  header > nav {
+    gap: 80px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  header > nav > ul {
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    gap: 10px;
+  }
+
+  .header > nav > ul > li {
+    padding: 0;
+    margin: 0;
+    /* width: 00px; */
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  header > nav > ul > li > a {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  /* ============= SECCION MIEMBROS MAX-WIDTH: 1600px============= */
+
+  .member-content {
+    width: 40%;
+    height: 550px;
+    box-shadow: black 2px 2px 40px 10px;
+    background-image: url(./assets/login/logi_background.jpg);
+    background-repeat: no-repeat;
+  }
+}
+
 /*============================================================================MAX-WIDTH: 1200px ==============================================================================*/
 
 @media (max-width: 1200px) {
@@ -13,9 +89,11 @@
   }
 
   header > nav {
+    gap: 20px;
     align-items: center;
-    justify-content: space-between;
-    width: 50%;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 20px;
   }
 
   header > nav > ul {
@@ -61,7 +139,7 @@
     max-width: 100%;
   }
 
-  /* ============= HEADER ============= */
+  /* ============= HEADER MAX-WIDTH: 1024px ============= */
 
   header > nav > img {
     width: 180px;
@@ -70,16 +148,16 @@
 
   header > nav {
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
   }
 
   header > nav > ul {
-    gap: 7px;
+    gap: 8px;
   }
 
   .header > nav > ul > li {
-    width: 90px;
+    width: 80px;
   }
 
   .menu-icon {
@@ -95,7 +173,7 @@
     display: none;
   }
 
-  /* ============= COMEBACK ============= */
+  /* ============= SECCION COMEBACK MAX-WIDTH: 1024px ============= */
 
   .come {
     width: 100%;
@@ -121,7 +199,7 @@
     align-self: center;
   }
 
-  /* ============= SECCION DISCOGRAFIA ============= */
+  /* ============= SECCION DISCOGRAFIA MAX-WIDTH: 1024px ============= */
 
   .disco {
     width: 100%;
@@ -135,7 +213,7 @@
 
   .discografia-container {
     grid-template-columns: auto;
-    gap: 120px;
+    gap: 60px;
   }
 
   .disco-container {
@@ -161,7 +239,7 @@
     letter-spacing: 0;
   }
 
-  /* ============= SECCION MIEMBROS ============= */
+  /* ============= SECCION MIEMBROS MAX-WIDTH: 1024px============= */
 
   .members-title {
     font-size: 3.5em;
@@ -187,7 +265,7 @@
     background-repeat: no-repeat;
   }
 
-  /* ============= SECCION SKZOO ============= */
+  /* ============= SECCION SKZOO MAX-WIDTH: 1024px============= */
 
   .skzoo {
     display: flex;
@@ -209,7 +287,7 @@
     gap: 60px;
   }
 
-  /* ============= SECCION HISTORIA ============= */
+  /* ============= SECCION HISTORIA MAX-WIDTH: 1024px============= */
 
   .historia {
     width: 100%;
@@ -239,7 +317,34 @@
     box-shadow: #9f9f9f 1px 1px 50px 20px;
   }
 
-  /* ============= FOOTER ============= */
+  /* ============= SECCION CONTACTO MAX-WIDTH: 1024px ============= */
+
+  .contacto-tittle {
+    font-size: 45px;
+    letter-spacing: 0.4em;
+  }
+
+  .contacto-container > h3 {
+    letter-spacing: 3px;
+    font-size: 21px;
+    margin-bottom: 10px;
+  }
+
+  .map-jyplogo {
+    width: 120px;
+  }
+
+  .map-title-desc {
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+
+  .map-flag {
+    width: 90px;
+    border-radius: 5px;
+  }
+
+  /* ============= FOOTER MAX-WIDTH: 1024px============= */
 
   .footer {
     width: 100%;
@@ -359,7 +464,7 @@
 
   .discografia-container {
     grid-template-columns: auto auto;
-    gap: 60px;
+    gap: 15px;
   }
 
   .disco-container {
@@ -428,6 +533,19 @@
     box-shadow: #9f9f9f 1px 1px 50px 20px;
   }
 
+  /* ============= SECCION CONTACTO ============= */
+
+  .contacto-tittle {
+    font-size: 40px;
+    letter-spacing: 0.3em;
+  }
+
+  .contacto-container > h3 {
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
   /* ============= FOOTER MAX-WIDTH: 768px============= */
 
   .footer {
@@ -443,6 +561,32 @@
 
   .footer-navbar {
     gap: 2em;
+  }
+}
+
+/*============================================================================MAX-WIDTH: 600px ==============================================================================*/
+@media (max-width: 600px) {
+  .main {
+    max-width: 100%;
+  }
+
+  /* ============= SECCION CONTACTO ============= */
+
+  .register-form {
+    width: 700px;
+  }
+
+  .register-textbox {
+    width: 80%;
+  }
+
+  .map-title {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .map-title-desc {
+    letter-spacing: 2px;
   }
 }
 
@@ -703,6 +847,57 @@
     box-shadow: #9f9f9f 1px 1px 50px 20px;
   }
 
+  /* ============= SECCION CONTACTO MAX-WIDTH: 576px  ============= */
+
+  .contacto-tittle {
+    font-size: 32px;
+    letter-spacing: 0.2em;
+  }
+
+  .contacto-container > h3 {
+    letter-spacing: 0;
+    font-size: 14px;
+    margin-bottom: 7px;
+  }
+
+  .map-jyplogo {
+    width: 80px;
+  }
+
+  .map-title-desc {
+    width: 90%;
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+
+  .map-title {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .map-flag {
+    width: 70px;
+    border-radius: 4px;
+  }
+
+  .contacto-map {
+    border: var(--gris) 5px solid;
+    border-radius: 10px;
+    width: 300px;
+    height: 250px;
+    margin: 40px;
+  }
+
+  /* ============= SECCION CONTACTO MAX-WIDTH: 576px ============= */
+
+  .register-form {
+    width: 600px;
+  }
+
+  .register-gotoregister > h3 {
+    letter-spacing: 3px;
+  }
+
   /* ============= FOOTER MAX-WIDTH: 576px ============= */
 
   .footer {
@@ -908,6 +1103,17 @@
     gap: 25px;
   }
 
+  /* ============= SECCION CONTACTO ============= */
+
+  .contacto-tittle {
+    font-size: 30px;
+    letter-spacing: 0.2em;
+  }
+
+  .register-gotoregister > h3 {
+    letter-spacing: 1px;
+  }
+
   /* ============= FOOTER MAX-WIDTH: 400px============= */
 
   .footer {
@@ -1070,6 +1276,11 @@
   .historia-part2 {
     font-size: 12px;
   }
+
+  /* .map-container {
+    margin: 10px;
+    width: 200px;
+  } */
 
   /* ============= FOOTER MAX-WIDTH: 350px============= */
 
