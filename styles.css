@@ -238,7 +238,8 @@ header > nav > ul > li > a {
 }
 
 .disco-tk-go,
-.disco-tk-noeasy {
+.disco-tk-noeasy,
+.disco-tk-5star {
   gap: 2px;
   font-size: 14px;
 }
