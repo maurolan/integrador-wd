@@ -213,7 +213,7 @@
 
   .discografia-container {
     grid-template-columns: auto;
-    gap: 60px;
+    gap: 90px;
   }
 
   .disco-container {
@@ -229,15 +229,42 @@
   }
 
   .disco-img {
-    width: 330px;
-    height: 330px;
+    width: 370px;
+    height: 370px;
   }
 
   .yellow-wood,
   .iamwho,
   .iamyou {
-    letter-spacing: 0;
+    letter-spacing: 4px;
   }
+
+  .disco-tracks > li {
+    font-family: "Roboto", sans-serif, "Gill Sans", "Gill Sans MT";
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+
+  .disco-tracks {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+  }
+
+  /* 
+  
+
+
+
+.disco-tk-go > li,
+.disco-tk-noeasy > li,
+.disco-tk-5star > li {
+  gap: 2px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif, "Gill Sans", "Gill Sans MT";
+  
+  
+  */
 
   /* ============= SECCION MIEMBROS MAX-WIDTH: 1024px============= */
 

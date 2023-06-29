@@ -1,8 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
-/* font-family: 'Permanent Marker', cursive; */
-
-@import url("https://fonts.googleapis.com/css2?family=Ultra&display=swap");
-/* font-family: 'Ultra', serif; */
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+/* font-family: 'Patrick Hand', cursive; */
 
 @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
 /* font-family: 'Patrick Hand', cursive; */
@@ -14,9 +11,6 @@ font-family: 'Shadows Into Light Two', cursive; , sans-serif; */
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 /* font-family: 'Share Tech Mono', monospace; */
 
-@import url("https://fonts.googleapis.com/css2?family=Dynalight&display=swap");
-/* font-family: 'Dynalight', cursive; */
-
 * {
   margin: 0;
   padding: 0;
@@ -24,7 +18,6 @@ font-family: 'Shadows Into Light Two', cursive; , sans-serif; */
   text-decoration: none;
   font-family: "Roboto", sans-serif, "Gill Sans", "Gill Sans MT";
   color: var(--blanco);
-  /* border: crimson 1px solid; */
 }
 
 /*COLOR*/
@@ -563,7 +556,7 @@ header > nav > ul > li > a {
 
 .skzoo-card-name {
   font-size: 40px;
-  font-family: "Dynalight", cursive;
+  font-family: "Patrick Hand", cursive;
 }
 
 .Wolfchan {
@@ -734,7 +727,7 @@ hr {
 }
 
 .register-form > label {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(138, 92, 92, 0.4);
   border-radius: 7px;
   width: auto;
   text-shadow: #000000 2px 2px 3px;
@@ -758,7 +751,7 @@ hr {
   font-size: 25px;
   font-weight: bold;
   letter-spacing: 3px;
-  color: rgb(44, 44, 44);
+  color: rgb(88, 73, 85);
   border-radius: 10px;
   background-color: rgb(221, 115, 136);
   border: rgb(180, 167, 170) 2px solid;
@@ -778,6 +771,7 @@ hr {
   justify-content: center;
   align-items: center;
   border: crimson 2px solid;
+  box-shadow: crimson 1px 1px 30px 3px;
   width: 150px;
   height: 50px;
   font-size: 25px;
@@ -865,4 +859,9 @@ hr {
   justify-content: center;
   align-items: center;
   gap: 15px;
+}
+
+.fa-brands {
+  font-size: 20px;
+  cursor: pointer;
 }
