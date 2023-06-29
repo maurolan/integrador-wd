@@ -546,6 +546,11 @@
     margin-bottom: 10px;
   }
 
+  .register-gotoregister > h3 {
+    letter-spacing: 4px;
+    font-size: 20px;
+  }
+
   /* ============= FOOTER MAX-WIDTH: 768px============= */
 
   .footer {
@@ -568,6 +573,13 @@
 @media (max-width: 600px) {
   .main {
     max-width: 100%;
+  }
+
+  /*SECCION DISCOGRAFIA*/
+
+  .disco-title {
+    font-size: 42px;
+    width: 100%;
   }
 
   /* ============= SECCION CONTACTO ============= */

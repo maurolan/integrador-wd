@@ -24,6 +24,7 @@ font-family: 'Shadows Into Light Two', cursive; , sans-serif; */
   text-decoration: none;
   font-family: "Roboto", sans-serif, "Gill Sans", "Gill Sans MT";
   color: var(--blanco);
+  /* border: crimson 1px solid; */
 }
 
 /*COLOR*/
@@ -685,6 +686,7 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .contacto-container > h3 {
@@ -719,11 +721,10 @@ hr {
   box-shadow: rgba(219, 74, 103, 0.747) 1px 1px 50px 1px;
   background-image: url(./assets/contacto/register_photo.jpg);
   background-size: 700px;
-
   gap: 5px;
   padding: 50px 0;
-  margin: 20px;
-  width: 100%;
+  margin: 20px 0;
+  width: 90%;
   border-radius: 20px;
 }
 
