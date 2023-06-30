@@ -213,8 +213,9 @@
   }
 
   .come-img {
-    width: 280px;
+    width: 244px;
     align-self: center;
+    border: white 5px solid;
   }
 
   /* ============= SECCION DISCOGRAFIA MAX-WIDTH: 1024px ============= */
@@ -263,9 +264,12 @@
   }
 
   .disco-tracks {
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    /* flex-wrap: wrap; */
     width: 90%;
+    height: 230px;
+    padding-top: 40px;
   }
 
   /* ============= SECCION MIEMBROS MAX-WIDTH: 1024px============= */
