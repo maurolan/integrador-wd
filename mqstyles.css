@@ -85,27 +85,26 @@
 
   header > nav > img {
     width: 180px;
-    margin: 20px 0 0 0;
+    margin: 30px 0 0 40px;
   }
 
   header > nav {
-    gap: 20px;
+    gap: 5px;
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   header > nav > ul {
     justify-content: space-evenly;
     align-items: space-evenly;
-    gap: 10px;
+    gap: 5px;
   }
 
   .header > nav > ul > li {
     padding: 0;
     margin: 0;
-    /* width: 00px; */
   }
 
   .menu-icon {
@@ -122,6 +121,11 @@
     display: none;
   }
 
+  /* ============= SECCION COMEBACK MAX-WIDTH: 1200px ============= */
+
+  .come-title {
+    letter-spacing: 20px;
+  }
   /* ============= SECCION MIEMBROS ============= */
 
   .member-content {
@@ -142,18 +146,23 @@
   /* ============= HEADER MAX-WIDTH: 1024px ============= */
 
   header > nav > img {
-    width: 180px;
-    margin: 20px 0 0 0;
+    width: 150px;
+    margin: 20px 0 0 50px;
   }
 
   header > nav {
     align-items: center;
     justify-content: space-around;
     width: 100%;
+    padding: 0;
+  }
+
+  .header-menu {
+    gap: 20px;
   }
 
   header > nav > ul {
-    gap: 8px;
+    gap: 30px;
   }
 
   .header > nav > ul > li {
@@ -166,7 +175,7 @@
 
   header > nav > ul > li > a {
     margin: 0;
-    font-size: 1em;
+    font-size: 18px;
   }
 
   .menu-icon {
@@ -183,6 +192,10 @@
 
   .come-info-container {
     width: 70%;
+  }
+
+  .come-title {
+    letter-spacing: 15px;
   }
 
   .come-info-detail {
@@ -212,13 +225,12 @@
   }
 
   .discografia-container {
-    grid-template-columns: auto;
-    gap: 90px;
+    gap: 70px;
   }
 
   .disco-container {
-    width: 330px;
-    height: 330px;
+    width: 350px;
+    height: 350px;
     box-shadow: black 2px 2px 40px 10px;
     border-radius: 100px 5px 100px 5px;
   }
@@ -229,8 +241,8 @@
   }
 
   .disco-img {
-    width: 370px;
-    height: 370px;
+    width: 350px;
+    height: 350px;
   }
 
   .yellow-wood,
@@ -250,21 +262,6 @@
     flex-wrap: wrap;
     width: 90%;
   }
-
-  /* 
-  
-
-
-
-.disco-tk-go > li,
-.disco-tk-noeasy > li,
-.disco-tk-5star > li {
-  gap: 2px;
-  font-size: 16px;
-  font-family: "Roboto", sans-serif, "Gill Sans", "Gill Sans MT";
-  
-  
-  */
 
   /* ============= SECCION MIEMBROS MAX-WIDTH: 1024px============= */
 
@@ -399,10 +396,8 @@
   /* ============= HEADER MAX-WIDTH: 768px ============= */
 
   header > nav > img {
-    width: 150px;
-    height: 5em;
-    margin: 0;
-    padding: 0;
+    width: 190px;
+    margin: 30px 0 0 0;
   }
 
   header > nav > ul {
@@ -457,8 +452,8 @@
   }
 
   .come-title {
-    font-size: 74px;
-    letter-spacing: 0.7em;
+    font-size: 75px;
+    letter-spacing: 0.3em;
     padding: 0 0 0 1em;
   }
   .come-info-container {

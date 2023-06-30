@@ -140,7 +140,7 @@ header > nav > ul > li > a {
 
 .come-title {
   font-size: 6rem;
-  letter-spacing: 0.7em;
+  letter-spacing: 30px;
   padding: 0 0 0 1em;
   text-shadow: var(--gris) 1px 1px 30px;
 }
@@ -853,12 +853,16 @@ hr {
   gap: 15px;
 }
 
+.footer-menu > li {
+  margin: 0;
+}
+
 .footer-navbar {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 30px;
 }
 
 .fa-brands {
