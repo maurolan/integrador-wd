@@ -1003,6 +1003,11 @@
     font-size: 1.3em;
   }
 
+  .come-img {
+    width: 65%;
+    margin: 0;
+  }
+
   /* ============= SECCION DISCOGRAFIA MAX-WIDTH: 400px ============= */
 
   .disco {
